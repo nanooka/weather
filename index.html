@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="weatherInfo-location"></h1>
+      <div class="input-button">
+        <input type="text" id="location" placeholder="Enter Location" />
+        <button id="getWeather">Get Weather</button>
+      </div>
+      <div class="weatherResult hidden">
+        <div id="weatherInfo"></div>
+        <img id="icon" />
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

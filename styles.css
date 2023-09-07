@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mulish";
+  background-color: #7896b7;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: #31577939;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  text-transform: capitalize;
+}
+.input-button {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0074d9;
+  border: 1px solid #0074d9;
+  color: #fff;
+  font-family: "Mulish";
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+#weatherInfo {
+  margin-top: 25px;
+  text-align: start;
+  font-size: 20px;
+}
+.weatherResult {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.temp {
+  font-size: 28px;
+}
+.description {
+  font-size: 16px;
+}
+#icon {
+  margin-top: 8px;
+  filter: drop-shadow(3px 5px 2px rgba(255, 255, 255, 0.21));
+  width: 100%;
+  margin-left: 60px;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
