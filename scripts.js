@@ -25,19 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
           icon.src =
             weatherDescription === "broken clouds" ||
             weatherDescription === "scattered clouds"
-              ? "/images/cloudy.svg"
+              ? "./images/cloudy.svg"
               : weatherDescription === "thunderstorm"
-              ? "/images/thunder.svg"
+              ? "./images/thunder.svg"
               : weatherDescription === "clear sky"
-              ? "/images/day.svg"
+              ? "./images/day.svg"
               : weatherDescription === "rain" ||
                 weatherDescription === "shower rain"
-              ? "/images/rainy-5.svg"
+              ? "./images/rainy-5.svg"
               : weatherDescription === "few clouds"
-              ? "/images/cloudy-day-1.svg"
+              ? "./images/cloudy-day-1.svg"
               : weatherDescription === "snow"
-              ? "/images/snowy-6.svg"
-              : "/images/cloudy-day-1.svg";
+              ? "./images/snowy-6.svg"
+              : "./images/cloudy-day-1.svg";
 
           weatherInfo.innerHTML = `
                         <p class='temp'>${temperature}°C</p>
